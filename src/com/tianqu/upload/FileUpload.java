@@ -149,7 +149,7 @@ public class FileUpload extends HttpServlet {
 	// 下载列表
 	private void downList(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		/*
+		/*/////
 		 * 实现思路，先获取upload目录下所有文件的文件名，再保存，跳转到down.jsp页面列表展示
 		 */
 		// 1.初始化map集合 Map<包含唯一标记文件名,简短文件名>
